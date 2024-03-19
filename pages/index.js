@@ -10,7 +10,7 @@ const Home = ({ products, bannerData }) => {
 
       <div className='products-heading'>
         <h2>Mais Vendidos</h2>
-        <p>Rosas de vários tipos</p>
+        <p>Flores de vários tipos</p>
       </div>
 
       <div className='products-container'>
