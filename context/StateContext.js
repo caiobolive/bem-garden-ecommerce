@@ -69,12 +69,10 @@ export const StateContext = ({ children }) => {
   }
 
   const incQty = () => {
-    console.log("incQty");
     setQty((prevQty) => prevQty + 1);
   };
 
   const decQty = () => {
-    console.log("decQty");
     setQty((prevQty) => {
       if (prevQty - 1 < 1) return 1;
 
