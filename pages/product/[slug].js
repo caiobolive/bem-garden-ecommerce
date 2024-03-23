@@ -89,7 +89,7 @@ const handleBuyNow = () => {
         <div className='maylike-products-wrapper'>
             <h2>Você pode também gostar</h2>
             <div className='marquee'>
-                <div className='maylike-products-container'>
+                <div className='maylike-products-container track'>
                     {products.map((item) => (
                         <Product 
                             key={item._id}
